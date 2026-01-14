@@ -1,5 +1,5 @@
 
-public class Slime {
+public class Slime implements Attacker, Luminous{
 	
 	protected String name;
 	protected int hp;
@@ -31,6 +31,18 @@ public class Slime {
 	
 	public void bark() {
 		System.out.println("プルプル！");
+	}
+
+	@Override
+	public void Attack() {
+		System.out.println(this.name + " の体当たり！");
+		
+	}
+
+	@Override
+	public void shine() {
+		System.out.println(this.name + " がほわんと光り、周囲を和ました！");
+		
 	}
 	
 	
