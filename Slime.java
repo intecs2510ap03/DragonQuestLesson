@@ -1,11 +1,10 @@
 
 public class Slime {
 	
-	private String name;
-	private int hp;
+	protected String name;
+	protected int hp;
 	
 	public Slime(String name, int hp) {
-		super();
 		this.name = name;
 		this.hp = hp;
 	}
