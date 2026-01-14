@@ -29,6 +29,10 @@ public class Slime {
 		return "slime [name=" + name + ", hp=" + hp + "]";
 	}
 	
+	public void bark() {
+		System.out.println("プルプル！");
+	}
+	
 	
 
 }

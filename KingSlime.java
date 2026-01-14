@@ -32,6 +32,11 @@ public class KingSlime extends Slime {
 		return "KingSlime [name=" + name + ", hp=" + hp + "]";
 	}
 	
+	@Override
+	public void bark() {
+		System.out.println("ドスンドスン！");
+	}
+	
 	
 
 }
