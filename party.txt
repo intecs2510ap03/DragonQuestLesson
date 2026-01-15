@@ -1,0 +1,5 @@
+slime [name=スライムA, hp=10]
+slime [name=スライムB, hp=20]
+武器「ロトの剣」を鍛造した！
+攻撃力：5
+KingSlime [name=キング, hp=30]
