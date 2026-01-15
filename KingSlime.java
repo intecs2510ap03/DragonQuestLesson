@@ -26,6 +26,11 @@ public class KingSlime extends Slime {
     public void bodyPress() {
         System.out.println(this.getName() + "の のしかかり攻撃！ 50のダメージ！");
     }
+
+	// キングスライムだけの特別な特技！
+    public void Attack() {
+        System.out.println(this.getName() + " がのしかかった！");
+    }
 	
 	@Override
 	public String toString() {
